@@ -1,0 +1,4 @@
+# an example file in the configuration repository
+delivery:
+  maxOrders: 10
+  minOrders: 1
