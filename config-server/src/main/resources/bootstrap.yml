@@ -1,0 +1,4 @@
+# name of application
+spring:
+  application:
+    name: config-server
