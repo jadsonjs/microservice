@@ -1,0 +1,9 @@
+# name of application
+spring:
+  application:
+    name: server-registry
+
+# indicates the Config Server host and so that at boot time the application requests its properties.    
+  cloud:
+    config:
+      uri: http://localhost:9090
