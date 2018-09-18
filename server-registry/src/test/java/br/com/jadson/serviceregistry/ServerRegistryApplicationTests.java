@@ -1,4 +1,4 @@
-package br.com.jadson.serverregistry;
+package br.com.jadson.serviceregistry;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

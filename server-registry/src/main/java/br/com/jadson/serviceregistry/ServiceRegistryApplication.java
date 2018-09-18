@@ -1,4 +1,4 @@
-package br.com.jadson.serverregistry;
+package br.com.jadson.serviceregistry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,9 +25,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @SpringBootApplication
 @EnableEurekaServer  /** Indicate to Spring Boot that this class will be an Eureka Server.*/
-public class ServerRegistryApplication {
+public class ServiceRegistryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerRegistryApplication.class, args);
+		SpringApplication.run(ServiceRegistryApplication.class, args);
 	}
 }
