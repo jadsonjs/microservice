@@ -3,11 +3,11 @@ server:
 
 eureka:
   instance:
-    hostname: localhost  #  Host onde o será iniciado o servidor do Eureka.
+    hostname: localhost                             #  Host onde o será iniciado o servidor do Eureka.
   client:
-    registerWithEureka: true # registra o proprio service-registry como um microservice	
-    fetchRegistry: false     # nao armazene os registro localmente. pois já sou ou service
+    registerWithEureka: true                        # registra o proprio service-registry como um microservice	
+    fetchRegistry: false                            # nao armazene os registro localmente. pois já sou ou service
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  # localizacao do servidor eureka
+      defaultZone: http://localhost:9091/eureka/    # localizacao do servidor eureka
   server:
-    wait-time-in-ms-when-sync-empty: 3000  # tempo que o eureka vai esperar entre as sincornizacoes com os clientes
+    wait-time-in-ms-when-sync-empty: 3000           # tempo que o eureka vai esperar entre as sincornizacoes com os clientes
