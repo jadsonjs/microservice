@@ -5,7 +5,7 @@ eureka:
   instance:
     hostname: localhost                             #  Host onde o será iniciado o servidor do Eureka.
   client:
-    registerWithEureka: true                        # registra o proprio service-registry como um microservice	
+    registerWithEureka: false                       # registra o proprio service-registry como um microservice	
     fetchRegistry: false                            # nao armazene os registro localmente. pois já sou ou service
     serviceUrl:
       defaultZone: http://localhost:9091/eureka/    # localizacao do servidor eureka
